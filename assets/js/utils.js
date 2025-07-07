@@ -66,7 +66,7 @@ export default Utils;
  * Load Conferwith Widget
  */
 
-const WIDGET_EXCLUDED_PATHS = ['/contact.html'];
+const WIDGET_EXCLUDED_PATHS = ['/contact'];
 
 function shouldShowWidget() {
     const currentPath = window.location.pathname;
