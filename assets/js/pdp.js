@@ -92,20 +92,10 @@ const PDP = {
                     </div>
                     
                     <div class="product-meta">
-                        <p><strong>Product Code:</strong> ${product.variantId}</p>
                         <p><strong>Category:</strong> ${product.productType}</p>
                         ${product.tags.length > 0 ? `<p><strong>Tags:</strong> ${product.tags.join(', ')}</p>` : ''}
                     </div>
                     
-                    ${
-                        product.productGuide
-                            ? `
-                        <div class="product-guide">
-                            <a href="${product.productGuide}" target="_blank">View Product Guide</a>
-                        </div>
-                    `
-                            : ''
-                    }
                 </div>
             </div>
         `;
@@ -176,8 +166,44 @@ const PDP = {
 
     // Add to cart functionality
     addToCart: function () {
-        // In a real application, this would add the product to cart
-        alert(`Added "${this.currentProduct.title}" to cart!`);
+        const product = this.currentProduct;
+
+        // Prepare cart item
+        const cartItem = {
+            variantId: product.variantId,
+            title: product.title,
+            price: product.price,
+            quantity: 1,
+            image: product.featuredImage,
+        };
+
+        // Use the fetch API to add to cart
+        fetch('/cart/add.js', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                items: [cartItem],
+            }),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                // console.log('Product added to cart:', data);
+
+                // Show confirmation message
+                const addToCartBtn = document.querySelector('.add-to-cart-btn');
+                const originalText = addToCartBtn.textContent;
+
+                addToCartBtn.textContent = 'Added to Cart!';
+                addToCartBtn.classList.add('added');
+
+                setTimeout(() => {
+                    addToCartBtn.textContent = originalText;
+                    addToCartBtn.classList.remove('added');
+                }, 2000);
+            })
+            .catch((error) => {
+                console.error('Error adding to cart:', error);
+            });
     },
 
     // Show error message

@@ -54,6 +54,17 @@ const ProductLoader = {
         }
     },
 
+    // Get product by variantId
+    getProductByVariantId: async function (variantId) {
+        try {
+            const products = await this.loadProducts();
+            return products.find((product) => product.variantId === variantId);
+        } catch (error) {
+            console.error('Error finding product by variantId:', error);
+            throw error;
+        }
+    },
+
     // Clear cache as useful for testing
     clearCache: function () {
         this.cache = null;

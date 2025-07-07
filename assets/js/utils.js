@@ -1,4 +1,5 @@
-const Utils = {
+// Export Utils as both a named export and default export
+export const Utils = {
     // Get URL parameters
     getUrlParam: function (param) {
         const urlParams = new URLSearchParams(window.location.search);
@@ -58,6 +59,9 @@ window.addEventListener('unhandledrejection', function (e) {
 
 window.Utils = Utils;
 
+// Add default export for module support
+export default Utils;
+
 /*
  * Load Conferwith Widget
  */
@@ -75,8 +79,8 @@ function loadConferWithWidget() {
     }
 
     const script = document.createElement('script');
-    script.src = 'https://live.conferwith.io/cdn/gtm.js';
-    script.setAttribute('data-baseurl', 'helix-easy-cuticle.glitch.me');
+    script.src = 'https://live.conferwith.io/cdn/conferwith_widget.js';
+    script.setAttribute('data-baseurl', 'shop_sandbox.com');
     document.body.appendChild(script);
 }
 
