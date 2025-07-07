@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Demo TVs - Demo Store</title>
+        <link rel="stylesheet" href="../assets/css/styles.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">Demo Store</h1>
+                <ul class="nav-links">
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <section class="plp-section">
+                <h2>Demo Smart TVs</h2>
+                <div id="products-container" class="products-grid">
+                    <!-- Products will be loaded here -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Demo Store. All rights reserved.</p>
+        </footer>
+
+        <script src="../assets/js/utils.js"></script>
+        <script src="../assets/js/product-loader.js"></script>
+        <script src="../assets/js/plp.js"></script>
+        <script>
+            // Initialize PLP
+            document.addEventListener('DOMContentLoaded', function () {
+                PLP.init('TV');
+            });
+        </script>
+    </body>
+</html>

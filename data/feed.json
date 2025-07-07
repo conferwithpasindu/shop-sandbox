@@ -1,0 +1,65 @@
+[
+    {
+        "availability": "in stock",
+        "description": "A sleek 40-inch Samsung Smart TV with HDR support.",
+        "descriptionHtml": "<p>A sleek <strong>40-inch</strong> Samsung Smart TV with HDR support.</p>",
+        "featuredImage": "https://images.samsung.com/is/image/samsung/p6pim/uk/qe55q80datxxu/gallery/uk-qled-tv-qe55q80datxxu-qe--q--datxxu-541621166",
+        "images": [
+            "https://images.samsung.com/is/image/samsung/p6pim/uk/qe55q80datxxu/gallery/uk-qled-tv-qe55q80datxxu-qe--q--datxxu-541621166",
+            "https://images.samsung.com/is/image/samsung/p6pim/uk/qe55q80datxxu/gallery/uk-qled-tv-qe55q80datxxu-qe--q--datxxu-541621168"
+        ],
+        "handle": "samsung-tv-40-black",
+        "groupingId": "1234",
+        "onlineStoreUrl": "https://example.com/products/samsung-tv-40-black",
+        "price": "499.99",
+        "productType": "TV",
+        "tags": ["Samsung", "Smart TV", "40-inch"],
+        "title": "Samsung Smart TV 40 inches - Black",
+        "variantId": "123a",
+        "videoURL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "variants": [{ "size": "40 inches", "color": "Black" }],
+        "productGuide": "https://example.com/guides/samsung-tv"
+    },
+    {
+        "availability": "out of stock",
+        "description": "A stylish 40-inch Samsung Smart TV in Blue with vibrant display.",
+        "descriptionHtml": "<p>A stylish <strong>40-inch</strong> Samsung Smart TV in Blue with vibrant display.</p>",
+        "featuredImage": "https://images.samsung.com/is/image/samsung/p6pim/uk/ue50du7100kxxu/gallery/uk-crystal-uhd-du7000-ue50du7100kxxu-541659237",
+        "images": [
+            "https://images.samsung.com/is/image/samsung/p6pim/uk/ue50du7100kxxu/gallery/uk-crystal-uhd-du7000-ue50du7100kxxu-541659237",
+            "https://images.samsung.com/is/image/samsung/p6pim/uk/ue50du7100kxxu/gallery/uk-crystal-uhd-du7000-ue50du7100kxxu-541678101"
+        ],
+        "handle": "samsung-tv-40-blue",
+        "groupingId": "1234",
+        "onlineStoreUrl": "https://example.com/products/samsung-tv-40-blue",
+        "price": "499.99",
+        "productType": "TV",
+        "tags": ["Samsung", "Smart TV", "40-inch", "Blue"],
+        "title": "Samsung Smart TV 40 inches - Blue",
+        "variantId": "123b",
+        "videoURL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "variants": [{ "size": "40 inches", "color": "Blue" }],
+        "productGuide": "https://example.com/guides/samsung-tv"
+    },
+    {
+        "availability": "in stock",
+        "description": "Powerful Samsung Soundbar with Dolby Audio.",
+        "descriptionHtml": "<p>Powerful Samsung Soundbar with <strong>Dolby Audio</strong>.</p>",
+        "featuredImage": "https://media.johnlewiscontent.com/i/JohnLewis/111835112alt6",
+        "images": [
+            "https://media.johnlewiscontent.com/i/JohnLewis/111835112",
+            "https://media.johnlewiscontent.com/i/JohnLewis/111835112alt6"
+        ],
+        "handle": "samsung-soundbar-black",
+        "groupingId": "124",
+        "onlineStoreUrl": "https://example.com/products/samsung-soundbar-white",
+        "price": "199.99",
+        "productType": "Soundbar",
+        "tags": ["Samsung", "Soundbar", "Audio"],
+        "title": "Samsung Soundbar - Black",
+        "variantId": "124a",
+        "videoURL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "variants": [{ "color": "Black" }],
+        "productGuide": "https://example.com/guides/samsung-soundbar"
+    }
+]
