@@ -92,6 +92,7 @@ const PDP = {
                     </div>
                     
                     <div class="product-meta">
+                        <p><strong>Product code:</strong> ${product.groupingId}-${product.variantId}</p>
                         <p><strong>Category:</strong> ${product.productType}</p>
                         ${product.tags.length > 0 ? `<p><strong>Tags:</strong> ${product.tags.join(', ')}</p>` : ''}
                     </div>

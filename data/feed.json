@@ -15,7 +15,7 @@
         "productType": "TV",
         "tags": ["Samsung", "Smart TV", "40-inch"],
         "title": "Samsung Smart TV 40 inches - Black",
-        "variantId": "123a",
+        "variantId": "1234a",
         "videoURL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "variants": [{ "size": "40 inches", "color": "Black" }],
         "productGuide": "https://example.com/guides/samsung-tv"
@@ -36,7 +36,7 @@
         "productType": "TV",
         "tags": ["Samsung", "Smart TV", "40-inch", "Blue"],
         "title": "Samsung Smart TV 40 inches - Blue",
-        "variantId": "123b",
+        "variantId": "1234b",
         "videoURL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "variants": [{ "size": "40 inches", "color": "Blue" }],
         "productGuide": "https://example.com/guides/samsung-tv"
@@ -51,13 +51,13 @@
             "https://media.johnlewiscontent.com/i/JohnLewis/111835112alt6"
         ],
         "handle": "samsung-soundbar-black",
-        "groupingId": "124",
+        "groupingId": "1235",
         "onlineStoreUrl": "https://example.com/products/samsung-soundbar-white",
         "price": "199.99",
         "productType": "Soundbar",
         "tags": ["Samsung", "Soundbar", "Audio"],
         "title": "Samsung Soundbar - Black",
-        "variantId": "124a",
+        "variantId": "1235a",
         "videoURL": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "variants": [{ "color": "Black" }],
         "productGuide": "https://example.com/guides/samsung-soundbar"
