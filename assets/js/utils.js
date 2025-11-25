@@ -84,7 +84,7 @@ function loadConferWithWidget() {
     // document.body.appendChild(script);
     const script = document.createElement('script');
     script.src = 'https://widget.personaguide.store/gtm.js';
-    script.setAttribute('data-baseurl', 'store.panasonic.co.uk');
+    script.setAttribute('data-baseurl', 'shop-sandbox.pages.dev');
     document.body.appendChild(script);
 }
 
